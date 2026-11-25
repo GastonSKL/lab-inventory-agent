@@ -1,9 +1,8 @@
 using System.Net;
-using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace LabInventory.Api.Tests;
 
-public class HealthTests(WebApplicationFactory<Program> factory) : IClassFixture<WebApplicationFactory<Program>>
+public class HealthTests(InventoryApiFactory factory) : IClassFixture<InventoryApiFactory>
 {
     [Fact]
     public async Task Health_returns_ok()
