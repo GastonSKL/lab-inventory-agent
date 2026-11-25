@@ -29,6 +29,18 @@ An LLM agent that answers questions and performs actions on a laboratory invento
 - Anthropic API for tool calling
 - React for a minimal chat UI
 
+## Running locally
+
+Requires the .NET 10 SDK.
+
+```bash
+dotnet run --project src/LabInventory.Api      # API + Scalar UI at http://localhost:5247/scalar
+dotnet test --solution LabInventory.slnx       # tests (in-memory SQLite, fixed clock)
+```
+
+The SQLite database (`lab-inventory.db`) is created and seeded with synthetic data on first run.
+Delete the file to reset it.
+
 ## Project journal
 
 - `BREAKAGE.md` — what broke, in what order, why, and how it was fixed.
