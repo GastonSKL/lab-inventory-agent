@@ -10,6 +10,7 @@
     <File Path="docs/phase-1-write-endpoints.md" />
   </Folder>
   <Folder Name="/docs/adr/">
+    <File Path="0001-stack-inicial.md" />
     <File Path="docs/adr/0000-template.md" />
   </Folder>
   <Folder Name="/src/">
