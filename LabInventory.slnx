@@ -1,4 +1,17 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="BREAKAGE.md" />
+    <File Path="global.json" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="docs/phase-1-write-endpoints.md" />
+  </Folder>
+  <Folder Name="/docs/adr/">
+    <File Path="docs/adr/0000-template.md" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/LabInventory.Api/LabInventory.Api.csproj" />
   </Folder>
